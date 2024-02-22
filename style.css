@@ -1,0 +1,93 @@
+/*variable*/
+:root{
+    --bg:#9290C3;
+    --bt:#B784B7;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+/*body desing*/
+body{
+    background-color: var(--bg);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.btn{
+    background: none;
+    border:2px solid var(--bt);
+    color: var(--bt);
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px rgb(0,0,0,0.6);
+    padding: 6px 12px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow:1px 1px 1px black;
+    letter-spacing: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 3px 5px black;
+
+}
+.btn:hover{
+    color: rgb(19, 20, 19);
+    background: var(--bt);
+}
+input{
+   
+    color: rgb(19, 20, 19);
+    padding: 10px 16px;
+    box-shadow:1px 2px 3px rgb(0,0,0,0.6) ;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+input:hover{
+    background:rgb(19, 17, 17) ;
+    color:var(--bt) ;
+}
+
+/*.container{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr ;
+   
+}*/
+.logo{
+    height:420px ;
+    width: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 2px 2px black;
+}
+
+  
+
+/*small tabs*/
+@media screen and (min-width:620px){
+   
+
+}
+/*tab&laptops*/
+@media screen and (min-width:960px){
+    
+}
+/*desktops*/
+@media screen and (min-width:1200px) {
+    
+}
